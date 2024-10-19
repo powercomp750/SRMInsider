@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>User Authetication</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SRMInsider, efficient campus navigation platform">
+    <style>
+        body {
+            overflow-y: auto;
+background-image: linear-gradient(to top left, #d3d3d3 0%, #808080 100%);
+background-position: inherit;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+overflow: hidden;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        .loginCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(81, 81, 81, 0.84);
+    backdrop-filter: blur(16px);
+    width: 50%;
+    max-width: fit-content;
+    margin: auto;
+    padding: 40px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 5px 5px 10px rgb(112, 112, 112);
+    margin-top: 30px;
+}
+
+.loginCard input[type=password] {
+    width: 75%;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: rgba(145, 145, 145, 0.525);
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-size: medium;
+}
+
+.loginCard input[type=password]:hover, .loginCard input[type=password]:focus {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.638);
+}
+
+hr {
+    background-color: rgb(128, 128, 128);
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    background-color: rgba(87, 87, 87, 0.816);
+    display: block;
+    justify-content: center;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    bacground: #6e6e6e;
+    background: rgb(113,113,113);
+    background: linear-gradient(320deg, rgb(107, 107, 107) 19%, rgb(121, 121, 121) 51%, rgb(139, 139, 139) 100%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button img {
+    height: 35px;
+    width: 35px;
+}
+
+button b {
+    font-weight: 100;
+    margin-top: 9.5px;
+    margin-left: 14px;
+}
+
+button:hover {
+    background: #4e4e4eb4;
+    box-shadow: 5px 5px 10px rgb(68, 68, 68);
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1>User Authetication</h1>
+    </div>
+        <div class="loginCard">
+            <label for="pass">Enter your auth key:</label>
+            
+            <input type="password" id="pass">
+            <hr>
+            <div>Please find <a>my auth key</a></div>
+            <hr>
+            <button type="button"><img src="images/google.webp" alt="google"><b>Continue with Google</b></button>
+            <button type="button"><img src="images/ms.webp" style="height: 30px;width: 30px;" alt="Microsoft"><b style="margin-left: 10px;">Continue with Microsoft</b></button>
+        </div>
+</body>
+</html>

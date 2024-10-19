@@ -1,0 +1,171 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    background-image: linear-gradient(to top left, #d3d3d3 0%, #808080 100%);
+background-position: inherit;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg1 {
+    background: url(images/image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width:100%;
+    align-items: flex-end;
+    display: flex;
+    position: relative;
+}
+
+.top {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    background-color: rgba(87, 87, 87, 0.816);
+    display: block;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 7px;
+    background: rgb(113,113,113);
+    background: linear-gradient(106deg, rgba(113,113,113,1) 19%, rgb(140, 140, 140) 51%, rgb(159, 159, 159) 100%);
+    border: 2px solid rgb(102, 100, 96);
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    box-shadow:  5px 5px 5px 1px rgba(166, 166, 166, 0.604);
+}
+
+a:hover {
+    background: rgb(105, 105, 105);
+    border: 2px solid rgb(102, 100, 96);
+    box-shadow:  5px 5px 5px 1px rgb(153, 153, 153);
+}
+
+.panel {
+    margin: 5px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.btn-group {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 25px;
+}
+
+.text {
+    padding: 30px;
+    background: rgba(12, 12, 12, 0.423);
+    backdrop-filter: blur(5px) saturate(180%);
+    width: 100%;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.btn-group .material-icons {
+    float: left;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#acc {
+    float: right;
+    margin-top: -60px;
+    margin-right: 40px;
+    border-radius: 100%;
+    width: 30px;
+    box-shadow: none;
+    background-color: rgb(176, 176, 176);
+    border: 2px solid rgb(121, 121, 121);
+}
+
+#acc:hover {
+    background-color: rgba(178, 178, 178, 0.508);
+    border: 2px solid rgb(102, 100, 96);
+    box-shadow:  5px 5px 5px 1px rgb(75, 75, 75);
+}
+
+.card-grp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+}
+
+.cardDet {
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+.card {
+    box-sizing: border-box;
+    background-color: rgb(90, 90, 90);
+    height: 300px;
+    margin: 25px;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    box-shadow: 7px 7px 5px rgb(179, 179, 179);
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.popup1,.popup2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+}
+
+.popup1.show, .popup2.show {
+    opacity: 1;
+}
+
+.popup-content1, .popup-content2 {
+    background-color: rgb(129, 129, 129);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    width: 80%;
+}
+
+.close1, .close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus, .close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blur {
+    filter: blur(5px);
+    transition: filter 0.5s ease;
+}
