@@ -2,7 +2,6 @@
 
 This is a working prototype/solution for solving campus navigation and other issues. Project was created for Design Thinking &amp; Methology (DTM) subject.
 
----
 
 ## Story behind project...
 
@@ -14,13 +13,11 @@ This project is designed to assist them and provide an effortless navigation exp
 
 You can personally dm me for further enquires regarding team and project design. For now let's proceed with prototype...
 
----
 
 ## SRMInsider
 
 I choose website instead of app since websites are super easy to design, implement and is less hassle to work with. Website has only frontend part, using plain resources. There is nothing like backend, databases and pages are designed for illustration.
 
----
 
 ## Runtime / Installation
 
@@ -40,8 +37,6 @@ Who installs a website to use? No to test on your device, you'll need to follow 
   
 * Launch ```main.html``` to get started.
   
-
----
 
 ## Project structure
 
