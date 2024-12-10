@@ -15,8 +15,9 @@ I choose website instead of app since websites are super easy to design, impleme
 
 ![image](https://github.com/user-attachments/assets/b4fb7f72-92fd-454e-b8d3-5beef02e1e27)
 
+<br>
 
-## Story behind project...
+## 🏫 Story behind project...
 
 Basically we were a team of 6 members and was assigned to create something working prototype solution for our problem statement in our college we face.
 
@@ -27,7 +28,7 @@ This project is designed to assist them and provide an effortless navigation exp
 You can personally dm me for further enquires regarding team and project design. For now let's proceed with prototype...
 
 
-## Runtime / Installation
+## ⚙️ Runtime / Installation
 
 Who installs a website to use? No to test on your device, you'll need to follow my instructions:
 
@@ -45,7 +46,7 @@ Who installs a website to use? No to test on your device, you'll need to follow 
   
 * Launch ```main.html``` to get started.
 
-## Codebase
+## 📂 Codebase
 
 Entire project is coded in HTML5, CSS and plain JavaScript. External resources used are:
 
@@ -56,7 +57,7 @@ Entire project is coded in HTML5, CSS and plain JavaScript. External resources u
 This project is deployed using [Netlify](https://www.netlify.com/)
   
 
-## Project structure
+## 🗂️ Project structure
 
 For this project following files are used having their own use cases:
 
@@ -91,11 +92,11 @@ For this project following files are used having their own use cases:
   
   This folder houses all the images and background used in this project. 
 
-## Contributions
+## 🤝 Contributions
 
 Your contributions are welcome! If you find any issues or want to add enhancements, feel free to submit a pull request.
 
-## License
+## 📄 License
 
 This project is licensed under the [Apache-2.0 License](https://github.com/powercomp750/DTM-campus-navigator/blob/main/LICENSE)
 
