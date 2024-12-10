@@ -4,9 +4,11 @@
 <div align="center">
 <img src="https://img.shields.io/badge/version-v1.1-green">
 <img src="https://img.shields.io/badge/release-stable-gree">
-<a href="https://hits.sh/github.com/powercomp750/SRMInsider/"><img alt="Hits" src="https://hits.sh/github/powercomp750/SRMInsider.svg?color=007ec6"/></a>
+<a href="https://hits.sh/github.com/powercomp750/SRMInsider/"><img alt="Hits" src="https://hits.sh/github.com/powercomp750/SRMInsider.svg?color=007ec6"/></a>
 <img src="https://img.shields.io/badge/made_with-❤-red"> <a href="https://github.com/powercomp750/SRMInsider/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-red.svg"/></a>
+  
 [![Netlify Status](https://api.netlify.com/api/v1/badges/36236930-ced1-446a-a9ca-7706c7a6e848/deploy-status)](https://app.netlify.com/sites/srminsider/deploys)
+
 </div>
 <br>
 
