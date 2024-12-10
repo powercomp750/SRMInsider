@@ -5,7 +5,9 @@
 <img src="https://img.shields.io/badge/version-v1.1-green">
 <img src="https://img.shields.io/badge/release-stable-gree">
 <a href="https://hits.sh/github.com/powercomp750/SRMInsider/"><img alt="Hits" src="https://hits.sh/github.com/powercomp750/SRMInsider.svg?color=007ec6"/></a>
-<img src="https://img.shields.io/badge/made_with-❤-red"> <a href="https://github.com/powercomp750/SRMInsider/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-red.svg"/></a>      [![Netlify Status](https://api.netlify.com/api/v1/badges/36236930-ced1-446a-a9ca-7706c7a6e848/deploy-status)](https://app.netlify.com/sites/srminsider/deploys)
+<img src="https://img.shields.io/badge/made_with-❤-red"> <a href="https://github.com/powercomp750/SRMInsider/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-red.svg"/></a>      
+  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/36236930-ced1-446a-a9ca-7706c7a6e848/deploy-status)](https://app.netlify.com/sites/srminsider/deploys)
 
 </div>
 <br>
@@ -14,7 +16,8 @@ This is a working prototype/solution for solving campus navigation and other iss
 
 I choose website instead of app since websites are super easy to design, implement and is less hassle to work with. Website has only frontend part, using plain resources. There is nothing like backend, databases and pages are designed for illustration.
 
-![[Pasted image 20241210143423.png]]
+![image](https://github.com/user-attachments/assets/b4fb7f72-92fd-454e-b8d3-5beef02e1e27)
+
 
 ## Story behind project...
 
